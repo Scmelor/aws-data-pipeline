@@ -1,0 +1,25 @@
+# Datos generados (se recrean con `make data`)
+data/
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+.terraform.lock.hcl
+
+# ⚠ Credenciales — nunca al repo
+.env
+*.pem
+.aws/
+credentials
