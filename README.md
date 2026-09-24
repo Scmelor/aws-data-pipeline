@@ -64,14 +64,7 @@ terraform -chdir=infra/terraform destroy   # avoid costs
 4. Normalize `channel` (trim + lowercase) and keep only the valid catalog.
 5. Each run logs raw/clean row counts and % dropped.
 
-## Roadmap / status
 
-- [x] Local PySpark pipeline + unit tests + CI
-- [x] Terraform, Glue job, Athena queries, Airflow DAG (code)
-- [ ] Deployed and validated on AWS (S3 + Glue + Crawler + Athena)
-- [ ] Airflow running in Docker
-- [ ] QuickSight dashboard + insights
-- [ ] Apache Hudi table format (optional)
 
 ## Author
 
